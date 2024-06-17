@@ -2,7 +2,7 @@
 
 
 
-Table Schema
+## Table Schema
 
 User table
 user_id, user email, password, phone number, address, city, pincode
@@ -28,7 +28,7 @@ booking_id, show_id, user_id, num_tickets, total_price, booking_time
 
 
 
-Schema Associations
+## Schema Associations
 
 User - bookings,  (One to many)
 Movies - Shows,  
@@ -48,13 +48,7 @@ Bookings - Show, User (One to Many)
 
 
 
-
-
-
-
-
-						Next Page:
-P1: SQL Queries for table creation and insertion of values:  (P1 task)
+## P1: SQL Queries for table creation and insertion of values:  (P1 task)
 
 
 
@@ -163,15 +157,7 @@ VALUES (1, 1, 2, 300.00),  -- John Doe books 2 tickets for The Batman (10:00 AM)
 
 
 
-
-
-
-
-
-	
-						Next Page:
-
-P2: Write a query to list down all the shows on a given date at a given theater along with their respective show timings.  
+## P2: Write a query to list down all the shows on a given date at a given theater along with their respective show timings.  
 
 
 
