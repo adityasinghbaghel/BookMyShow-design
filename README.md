@@ -52,7 +52,7 @@ Bookings - Show, User (One to Many)
 
 
 
-Creating and inserting into Movies
+### Creating and inserting into Movies
 
 CREATE TABLE Movies (
   movie_id INT PRIMARY KEY AUTO_INCREMENT,
@@ -68,7 +68,7 @@ VALUES ('The Batman (2022)', 8.6, '2022-03-04', 'Matt Reeves', 176),
        ('Top Gun: Maverick (2022)', 8.6, '2022-05-27', 'Joseph Kosinski', 130);
 
 
-Creating and inserting into Theatres
+### Creating and inserting into Theatres
 
 CREATE TABLE Theatres (
   theatre_id INT PRIMARY KEY AUTO_INCREMENT,
@@ -81,7 +81,7 @@ VALUES ('Juhu, Mumbai', 'PVR: Andheri'),
        ('Wakad, Pune', 'INOX: Wakad');
 
 
-Creating and inserting into Screens
+### Creating and inserting into Screens
 
 CREATE TABLE Screens (
   screen_id INT PRIMARY KEY AUTO_INCREMENT,
@@ -98,7 +98,7 @@ VALUES (1, 'Screen 1 - IMAX'),
        (2, 'Screen 2 - Dolby Atmos');
 
 
-Creating and inserting into Shows
+### Creating and inserting into Shows
 
 CREATE TABLE Shows (
   show_id INT PRIMARY KEY AUTO_INCREMENT,
@@ -118,7 +118,7 @@ VALUES (1, '2024-06-17', '10:00:00'),  -- The Batman (Screen 1 - IMAX)
 
 
 
-Creating and inserting into Seats
+### Creating and inserting into Seats
 
 CREATE TABLE Seats (
   seat_id INT PRIMARY KEY AUTO_INCREMENT,
@@ -134,7 +134,7 @@ VALUES (1, 1, 1), (1, 1, 2), (1, 1, 3), ..., (1, 10, 10),  -- Seats in Row 1
        (2, 1, 1), (2, 1, 2), (2, 1, 3), ..., (2, 10, 10);  -- Seats in Row 2 (Assuming Screen 2 has similar rows)
 
 
-Creating and inserting into Bookings
+### Creating and inserting into Bookings
 
 CREATE TABLE Bookings (
   booking_id INT PRIMARY KEY AUTO_INCREMENT,
