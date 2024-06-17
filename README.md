@@ -4,7 +4,7 @@
 
 ## Table Schema
 
-User table
+User table:
 user_id, user email, password, phone number, address, city, pincode
 
 Movies table
