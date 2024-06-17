@@ -1,6 +1,6 @@
 # BookMyShow-design
 
-
+![Alt text](https://github.com/adityasinghbaghel/BookMyShow-design/blob/main/bookmyshow-logo-vector.png)
 
 ## Table Schema
 
