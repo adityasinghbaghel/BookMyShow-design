@@ -7,22 +7,22 @@
 User table:
 user_id, user email, password, phone number, address, city, pincode
 
-Movies table
+Movies table:
 Movie_id, movie_name, ratings, release_date, director, duration
 
-Theather table
+Theather table:
 theather_id, location, theather_name
 
-Screens table
+Screens table:
 screen_id, theather_id, screen_type
 
-Shows table
+Shows table:
 show_id, show_time,, movie_id, show_date
 
-Seats table
+Seats table:
 seat_id, screen_id, row_number, seat_number
 
-Bookings table
+Bookings table:
 booking_id, show_id, user_id, num_tickets, total_price, booking_time
 
 
